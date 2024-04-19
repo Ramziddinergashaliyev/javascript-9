@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./css/style.min.css" />
+    <title>Js</title>
+  </head>
+  <body>
+    <main>
+      <section class="container">
+        <div class="products__top">
+          <h1 class="products__title">Products</h1>
+          <div class="products__btns">
+            <button class="products__btn">AddProduct</button>
+          </div>
+        </div>
+        <div class="modal">
+          <div class="modal__title">Cars Infarmation</div>
+          <form action="">
+            <input required class="name" type="text" placeholder="name" />
+            <input
+              required
+              class="quantity"
+              type="text"
+              placeholder="quantity"
+            />
+            <input required class="img" type="text" placeholder="img" />
+            <input required class="unit" type="text" placeholder="unit" />
+            <input required class="price" type="text" placeholder="price" />
+          </form>
+          <div class="form__btns">
+            <button class="submit__btn btn--form">Submit</button>
+            <button class="delete__btn btn--form">Delete</button>
+          </div>
+        </div>
+
+        <div class="products">
+          <div class="products__cards"></div>
+        </div>
+      </section>
+    </main>
+
+    <script type="module" src="./js/app.js"></script>
+  </body>
+</html>
