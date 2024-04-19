@@ -1,4 +1,6 @@
-export const prod = [
+import { Products } from "./const.js";
+
+export const prod = JSON.parse(localStorage.getItem(Products)) || [
   {
     id: "1",
     name: "Banana",
@@ -21,6 +23,6 @@ export const prod = [
     quentity: 125,
     unit: "dona",
     price: 5000,
-    img: "https://www.oceangifts.ru/media/images/catalog/00225/22577-bc89899519d6700e292f1cc3a6f404e8.jpg",
+    img: "https://www.skrepkaexpo.uz/image/cache/catalog/tovar/rossija2020%E2%84%962/ruchki/ruchka-roller183001-1200x800.jpg",
   },
 ];

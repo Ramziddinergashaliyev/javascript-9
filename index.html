@@ -16,18 +16,38 @@
           </div>
         </div>
         <div class="modal">
-          <div class="modal__title">Cars Infarmation</div>
+          <div class="modal__title">Products Infarmation</div>
           <form action="">
-            <input required class="name" type="text" placeholder="name" />
             <input
               required
-              class="quantity"
+              class="name inputClear"
+              type="text"
+              placeholder="name"
+            />
+            <input
+              required
+              class="quantity inputClear"
               type="text"
               placeholder="quantity"
             />
-            <input required class="img" type="text" placeholder="img" />
-            <input required class="unit" type="text" placeholder="unit" />
-            <input required class="price" type="text" placeholder="price" />
+            <input
+              required
+              class="img inputClear"
+              type="text"
+              placeholder="img"
+            />
+            <select name="" id="product__select">
+              <label for="">Unitni tanlang</label>
+              <option class="unit" value="kg">kg</option>
+              <option class="unit" value="litr">litr</option>
+              <option class="unit" value="dona">dona</option>
+            </select>
+            <input
+              required
+              class="price inputClear"
+              type="text"
+              placeholder="price"
+            />
           </form>
           <div class="form__btns">
             <button class="submit__btn btn--form">Submit</button>
